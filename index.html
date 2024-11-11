@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=more_vert"
+    />
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header-container header-grid">
+      <div><h1 class="text-4xl">NOVA</h1></div>
+      <div class="md:hidden col-start-2 grid grid-cols-3">
+        <span class="material-symbols-outlined col-start-3"> more_vert </span>
+      </div>
+      <div class="hidden md:block col-start-2">
+        <a href="#home" class="header-anchor hover:bg-yellow-50">home</a>
+        <a href="#about" class="header-anchor hover:bg-yellow-50">about</a>
+        <a href="#gallery" class="header-anchor hover:bg-yellow-50">gallery</a>
+        <a href="#service" class="header-anchor hover:bg-yellow-50">service</a>
+        <a href="#contact" class="header-anchor hover:bg-yellow-50">contact</a>
+      </div>
+    </div>
+    <div class="body-flex md:body-grid">
+      <div class="content-flex hero-grid">
+        <img class="rounded" src="./imgs/hero-image.jpg" alt="hero-img" />
+      </div>
+      <div
+        class="content-flex content-container content-container-grid rounded content-grid"
+      >
+        <h1 class="text-3xl title-flex">Designs by <span>NOVA</span></h1>
+        <p class="p-style-flex">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam quam,
+          distinctio officiis velit animi qui dicta voluptatum fugit sed optio
+          ex ducimus dolores nihil expedita illo veritatis. Corporis, dolorum
+          deserunt.
+        </p>
+        <button class="button-style button-style-flex hover:bg-yellow-50">
+          Work with <span>NOVA</span>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
