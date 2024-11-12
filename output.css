@@ -614,6 +614,17 @@ video {
   grid-column: span 2 / span 2;
 }
 
+.gallery-flex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 20px;
+  align-items: center;
+  margin-top: 3em;
+}
+
 .col-start-2 {
   grid-column-start: 2;
 }
