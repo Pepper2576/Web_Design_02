@@ -622,7 +622,7 @@ video {
   gap: 16px;
   padding: 20px;
   align-items: center;
-  margin-top: 3em;
+  margin-top: 1em;
 }
 
 .col-start-2 {
@@ -675,6 +675,15 @@ video {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(6, 1fr);
+  }
+
+  .md\:gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    margin-left: 2em;
+    margin-top: 1em;
   }
 }
 
