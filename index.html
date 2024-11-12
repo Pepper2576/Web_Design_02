@@ -11,11 +11,13 @@
     <link href="./output.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body class="index-bg">
     <div class="header-container header-grid">
-      <div><h1 class="text-4xl">NOVA</h1></div>
+      <div><h1 class="text-4xl text-white">NOVA</h1></div>
       <div class="md:hidden col-start-2 grid grid-cols-3">
-        <span class="material-symbols-outlined col-start-3"> more_vert </span>
+        <span class="material-symbols-outlined col-start-3 text-white">
+          more_vert
+        </span>
       </div>
       <div class="hidden md:block col-start-2">
         <a href="./index.html" class="header-anchor hover:bg-yellow-50">home</a>
@@ -33,22 +35,21 @@
         >
       </div>
     </div>
-    <div class="body-flex md:body-grid">
-      <div class="content-flex hero-grid">
-        <img class="rounded" src="./imgs/hero-image.jpg" alt="hero-img" />
-      </div>
+    <div class="body-flex mt-72 md:mt-0 md:body-grid">
       <div
-        class="content-flex content-container content-container-grid rounded content-grid"
+        class="content-flex content-container flex-col-reverse content-container-grid rounded content-grid"
       >
-        <h1 class="text-3xl title-flex">Designs by <span>NOVA</span></h1>
-        <p class="p-style-flex">
+        <h1 class="text-3xl title-flex text-white">
+          Designs by <span>NOVA</span>
+        </h1>
+        <p class="p-style-flex text-gray-400">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam quam,
           distinctio officiis velit animi qui dicta voluptatum fugit sed optio
           ex ducimus dolores nihil expedita illo veritatis. Corporis, dolorum
           deserunt.
         </p>
         <button
-          class="button-style button-style-flex hover:bg-yellow-50"
+          class="button-style button-style-flex hover:bg-yellow-50 mt-4"
           onclick="window.location.href='./pages/contact.html'"
         >
           Work with <span>NOVA</span>

@@ -3,19 +3,27 @@ body {
   font-family: 'Roboto', serif;
   font-weight: 700;
   font-style: normal;
+  height: 100vh;
+  width: 100vw;
+}
+.index-bg {
+  background-image: url(./imgs/hero-image.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.contact-bg {
+  background-image: url(./imgs/contact-page-image.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 a {
   text-transform: uppercase;
 }
-.hero-grid {
-  grid-column: 3/7;
-  grid-row-start: 2;
-  grid-row-end: 6;
-  z-index: 0;
-}
 .content-grid {
   z-index: 100;
-  grid-column: 1/4;
+  grid-column: 1/3;
   grid-row-start: 3;
   grid-row-end: 5;
   margin: 0 3em;
@@ -78,4 +86,13 @@ hr {
 .ele-four {
   grid-column: 2;
   grid-row: 2;
+}
+.form-loc {
+  grid-column: 2/6;
+  grid-row: 2/3;
+}
+@media (max-width: 768px) {
+  .form-loc {
+    width: 83.333333%;
+  }
 }

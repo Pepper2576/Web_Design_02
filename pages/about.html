@@ -11,11 +11,13 @@
     <link href="../output.css" rel="stylesheet" />
     <link rel="stylesheet" href="../style.css" />
   </head>
-  <body>
+  <body class="bg-black">
     <div class="header-container header-grid">
-      <div><h1 class="text-4xl">NOVA</h1></div>
+      <div><h1 class="text-4xl text-white">NOVA</h1></div>
       <div class="md:hidden col-start-2 grid grid-cols-3">
-        <span class="material-symbols-outlined col-start-3"> more_vert </span>
+        <span class="material-symbols-outlined col-start-3 text-white">
+          more_vert
+        </span>
       </div>
       <div class="hidden md:block col-start-2">
         <a href="../index.html" class="header-anchor hover:bg-yellow-50"
@@ -37,11 +39,13 @@
     </div>
     <div class="body-flex md:body-grid">
       <div class="title-container">
-        <h2 class="heading-0ne text-3xl">Hi, I'm a.....</h2>
-        <h1 class="heading-two text-6xl">Web Developer</h1>
+        <h2 class="heading-0ne text-3xl text-white">
+          Hi, I'm a..... <br /><br />
+        </h2>
+        <h1 class="heading-two text-6xl text-white">Web Developer</h1>
       </div>
-      <div class="text-container">
-        <p>
+      <div class="text-container mx-3">
+        <p class="text-white">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum ad
           facere sit itaque provident sint quae praesentium harum minima!
           Architecto beatae accusantium, delectus molestias iusto numquam ipsum
@@ -54,7 +58,7 @@
           dicta doloribus temporibus?
         </p>
         <button
-          class="button-style button-style-flex hover:bg-yellow-50"
+          class="button-style button-style-flex hover:bg-yellow-50 mt-3"
           onclick="window.location.href ='./gallery.html'"
         >
           See My Work
